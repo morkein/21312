@@ -1,5 +1,5 @@
 
-
+//version 3.0
 #include "feature1.h"
 #include "feature2.h"
 #include "feature3.h"
@@ -41,7 +41,7 @@ int main()
 		if (b == 0)
 			cout << "Деление на ноль" << endl;
 		else
-			cout << a << " / " << b << " = " << Div(a, b) << << endl; //Деление
+			cout << a << " / " << b << " = " << Div(a, b) << endl; //Деление
 		break;
 	}
 
