@@ -1,7 +1,7 @@
-//ready to release 1.0
 
 
 #include "feature1.h"
+#include "feature2.h"
 #include <iostream>
 using namespace std;
 
@@ -30,8 +30,8 @@ int main()
 		cout << a << " + " << b << " = " << Sum(a, b) << endl;  //Сложение
 		break;
 	case 2: 
-		cout << "Функция в разработке" << endl; 
-		break; //Вычитание
+		cout << a << " - " << b << " = " << Sub(a, b) << endl; //Вычитание
+		break; 
 	case 3:	
 		cout << "Функция в разработке" << endl; //Умножение
 		break;
