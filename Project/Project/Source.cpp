@@ -1,7 +1,7 @@
-//ready to release 1.0
+//version 2.0 ready to release
 
-
-
+#include "feature1.h"
+#include "feature2.h"
 #include <iostream>
 using namespace std;
 
@@ -26,10 +26,18 @@ int main()
 	//основная часть
 	switch (choice)
 	{
-	case 1: cout << "Функция в разработке" << endl; //Сложение
-	case 2: cout << "Функция в разработке" << endl; //Вычитание
-	case 3:	cout << "Функция в разработке" << endl; //Умножение
-	case 4: cout << "Функция в разработке" << endl; //Деление
+	case 1:
+		cout << a << " + " << b << " = " << Sum(a, b) << endl;  //Сложение
+		break;
+	case 2: 
+		cout << a << " - " << b << " = " << Sub(a, b) << endl; //Вычитание
+		break; 
+	case 3:	
+		cout << "Функция в разработке" << endl; //Умножение
+		break;
+	case 4: 
+		cout << "Функция в разработке" << endl; //Деление
+		break;
 	}
 
 	system("pause");
