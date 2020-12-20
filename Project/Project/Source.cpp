@@ -1,7 +1,9 @@
-//version 2.0 ready to release
 
+//version 3.0
 #include "feature1.h"
 #include "feature2.h"
+#include "feature3.h"
+#include "feature4.h"
 #include <iostream>
 using namespace std;
 
@@ -33,10 +35,13 @@ int main()
 		cout << a << " - " << b << " = " << Sub(a, b) << endl; //Вычитание
 		break; 
 	case 3:	
-		cout << "Функция в разработке" << endl; //Умножение
+		cout << a << " * " << b << " = " << Mult(a, b) << endl; //Умножение
 		break;
 	case 4: 
-		cout << "Функция в разработке" << endl; //Деление
+		if (b == 0)
+			cout << "Деление на ноль" << endl;
+		else
+			cout << a << " / " << b << " = " << Div(a, b) << endl; //Деление
 		break;
 	}
 
