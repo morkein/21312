@@ -1,7 +1,7 @@
 //ready to release 1.0
 
 
-
+#include "feature1.h"
 #include <iostream>
 using namespace std;
 
