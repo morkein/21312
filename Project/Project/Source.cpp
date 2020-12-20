@@ -3,6 +3,7 @@
 #include "feature1.h"
 #include "feature2.h"
 #include "feature3.h"
+#include "feature4.h"
 #include <iostream>
 using namespace std;
 
@@ -40,7 +41,7 @@ int main()
 		if (b == 0)
 			cout << "Деление на ноль" << endl;
 		else
-			cout << a << " / " << b << " = " << Mult(a, b) << << endl; //Деление
+			cout << a << " / " << b << " = " << Div(a, b) << << endl; //Деление
 		break;
 	}
 
