@@ -1,4 +1,5 @@
-//0.1
+//ready to release 1.0
+
 
 
 #include <iostream>
